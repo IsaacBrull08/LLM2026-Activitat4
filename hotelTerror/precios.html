@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Consulta las características y precios de las habitaciones del Hotel Terror.">
+    <meta name="keywords" content="Hotel Terror, precios, habitaciones, tarifas, características">
+    <meta name="author" content="Nom i Cognoms">
+    <title>Hotel Terror - Características y Precios</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="img/estrelles.jpg" alt="Logo Hotel Terror 4 estrellas">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="precios.html" class="activo">Precios</a></li>
+                <li><a href="reserva.html">Reserva</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-container">
+        <h1 class="page-title"><span class="blue-text">Hotel Terror:</span> Características y precios</h1>
+
+        <table class="tabla-precios">
+            <thead>
+                <tr>
+                    <th>Tipo de Habitación</th>
+                    <th>Personas</th>
+                    <th>Características</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Habitación individual -->
+                <tr>
+                    <td><strong>Habitación individual</strong></td>
+                    <td class="center-icon"><img src="img/individual.png" alt="1 persona"></td>
+                    <td>Baño compartido, 20m², Microondas</td>
+                    <td class="price-cell">70 €</td>
+                </tr>
+
+                <!-- Habitación doble -->
+                <tr>
+                    <td rowspan="2"><strong>Habitación doble (1 o 2 camas)</strong></td>
+                    <td class="center-icon"><img src="img/doble.png" alt="2 personas"></td>
+                    <td rowspan="2">Baño privado, 30m², Microondas</td>
+                    <td class="price-cell">120 €</td>
+                </tr>
+                <tr>
+                    <td class="center-icon"><img src="img/individual.png" alt="1 persona"></td>
+                    <td class="price-cell">90 €</td>
+                </tr>
+
+                <!-- Habitación doble superior -->
+                <tr>
+                    <td><strong>Habitación doble superior</strong></td>
+                    <td class="center-icon"><img src="img/doble.png" alt="2 personas"></td>
+                    <td>Baño privado, 35m², Zona de cocina, Cama doble</td>
+                    <td class="price-cell">140 €</td>
+                </tr>
+
+                <!-- Habitación triple -->
+                <tr>
+                    <td rowspan="3"><strong>Habitación triple (1, 2 o 3 camas)</strong></td>
+                    <td class="center-icon">
+                        <img src="img/doble.png" alt="2 personas">
+                        <img src="img/individual.png" alt="1 persona">
+                    </td>
+                    <td rowspan="3">Baño privado, 40m², Zona de cocina</td>
+                    <td class="price-cell">150 €</td>
+                </tr>
+                <tr>
+                    <td class="center-icon"><img src="img/doble.png" alt="2 personas"></td>
+                    <td class="price-cell">130 €</td>
+                </tr>
+                <tr>
+                    <td class="center-icon"><img src="img/individual.png" alt="1 persona"></td>
+                    <td class="price-cell">100 €</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4"><em>Características comunes: WiFi gratis / TV de pantalla plana / Aire acondicionado</em></td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+    <footer>
+        <p>Actividad realizada por <strong>Isaac Brull Piñol</strong></p>
+        <p>
+            Fotografías de la portada <a href="https://unsplash.com/" target="_blank" rel="noopener">Unsplash</a>
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
+                <img src="img/creative-commons.png" alt="Licencia Creative Commons BY-SA 4.0">
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
